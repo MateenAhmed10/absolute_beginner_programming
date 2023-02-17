@@ -131,3 +131,19 @@ console.log(compMulti, "'Compound Assingment *'")
 let compDiv = 30;
 compDiv /= 6;
 console.log(compDiv, "'Compound Assingment /'")
+
+
+// .length and charAt() methods;
+
+// .length returns the number length of strings
+let coding = "I love to program";
+let lengthOfCoding = coding.length;
+console.log(lengthOfCoding, "'Length of string'");
+// lets find character at nth position using .length;
+let charAtNthPosition = coding[coding.length - 1];
+console.log(charAtNthPosition);
+
+// charAt() returns character at specific position;
+let institute = "piaic";
+let strChar = institute.charAt(0).toUpperCase(); // find character at charAt(0) '0 index' and make it toUpperCase() method to make string capatilize;
+console.log(strChar);
