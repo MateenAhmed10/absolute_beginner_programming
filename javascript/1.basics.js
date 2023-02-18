@@ -170,3 +170,11 @@ let number7 = 100;
 let number8 = 23;
 let check4 = number7 >= number8;
 console.log(check4);
+
+
+const fruits = ["Apple", "Banana", "Mango", "Kiwi"];
+
+for(x in fruits) {
+  console.log(x)
+}
+document.getElementById("sam").style.display = "hide"
