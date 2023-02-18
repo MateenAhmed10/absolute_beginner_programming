@@ -147,3 +147,26 @@ console.log(charAtNthPosition);
 let institute = "piaic";
 let strChar = institute.charAt(0).toUpperCase(); // find character at charAt(0) '0 index' and make it toUpperCase() method to make string capatilize;
 console.log(strChar);
+
+
+
+// Numbers logical operator which return true or false
+let number1 = 5;
+let number2 = 4;
+let check = number1 < number2;
+console.log(check)
+
+let number3 = 6;
+let number4 = 4;
+let check2 = number3 > number4;
+console.log(check2);
+
+let number5 = 10;
+let number6 = 12;
+let check3 = number5 <= number6;
+console.log(check3);
+
+let number7 = 100;
+let number8 = 23;
+let check4 = number7 >= number8;
+console.log(check4);
