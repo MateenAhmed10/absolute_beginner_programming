@@ -39,3 +39,21 @@ console.log(carObject);
 // .hasOwnProperty() method which returns true or false if property exists or not.
 let checkProp = "name";
 console.log(carObject.hasOwnProperty(checkProp))
+
+
+
+// Array of Objects;
+let companies = [
+    {
+        name: "Apple",
+        founder: "Steve Jobs"
+    }, 
+    {
+        name: "Facebook",
+        founder: "Mark Zakerburg"
+    }
+];
+
+for (let i=0; i < companies.length; i++) {
+    console.log(companies[i]);
+}

@@ -4,3 +4,4 @@ function getGreets(person, date) {
 }
 var greet = getGreets("Mateen", d);
 console.log(greet);
+var def = null;

@@ -6,3 +6,5 @@ function getGreets(person: string, date: Date) {
 
 let greet = getGreets("Mateen", d);
 console.log(greet)
+
+let def = null;
