@@ -1,7 +1,12 @@
-var d = new Date();
+"use strict";
+let d = new Date();
 function getGreets(person, date) {
-    return "Hello! ".concat(person, ", I am TypeScript and today is ").concat(date.toLocaleDateString(), ".");
+    return `Hello! ${person}, I am TypeScript and today is ${date.toLocaleDateString()}.`;
 }
-var greet = getGreets("Mateen", d);
+let greet = getGreets("Mateen", d);
 console.log(greet);
-var def = null;
+function product(a, b) {
+    return a * b;
+}
+;
+console.log(product(2, 2));

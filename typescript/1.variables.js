@@ -1,6 +1,7 @@
-var userName = "Mateen Shahbaz Ahemd Bhutto";
-var age = 19;
-var userId;
+"use strict";
+let userName = "Mateen Shahbaz Ahemd Bhutto";
+let age = 19;
+let userId;
 userId = 23220;
-var userLoggedIn = false;
+let userLoggedIn = false;
 console.log(userLoggedIn);

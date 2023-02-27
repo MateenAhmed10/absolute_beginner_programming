@@ -7,4 +7,7 @@ function getGreets(person: string, date: Date) {
 let greet = getGreets("Mateen", d);
 console.log(greet)
 
-let def = null;
+function product(a: number, b: number): number {
+    return a * b;
+};
+console.log(product(2, 2))
