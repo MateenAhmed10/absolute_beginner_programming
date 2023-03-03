@@ -8,4 +8,6 @@ TypeScript is a statically/strong type open source programming language built on
 !!! JavaScript is 'dynamics' means "capable of action or change", whereas TypeScript is      
 'static' means "fixed" (variable types).
 
-In tpyescipt folder you'll learn all about JavaScipt plus TypeScript.
+In TypeScript folder you'll learn all about JavaScipt plus TypeScript.
+
+Go into typescript folder and write tsc --watch to go live for every file and on next terminmal go into specific folder and type node --watch index.js
