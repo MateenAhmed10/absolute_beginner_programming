@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //                      if, else, if else statments
 /*
     In programming/javascript you use statements
@@ -79,3 +77,4 @@ if (country === "Pakistan" || country === "PK") {
 else {
     console.log("Sorry! you not a citizen of Pakistan");
 }
+export {};
