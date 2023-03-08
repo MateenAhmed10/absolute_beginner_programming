@@ -32,4 +32,9 @@ const person = {
     user_id: 12053,
     email: "example@xyz.com",
 };
+const glass = {
+    name: "RayBan",
+    quantity: 20,
+    price: 200,
+};
 export {};
