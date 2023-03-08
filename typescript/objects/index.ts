@@ -31,4 +31,9 @@ const lookup = (lookupUser: User, userToLook: string) => {
 };
 console.log(lookup(users, "Mateen"));
 
+
+console.log(...users);
+
+
+
 export {};

@@ -26,4 +26,5 @@ const lookup = (lookupUser, userToLook) => {
     return gotUser;
 };
 console.log(lookup(users, "Mateen"));
+console.log(...users);
 export {};

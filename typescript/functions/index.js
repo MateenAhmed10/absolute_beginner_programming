@@ -64,3 +64,15 @@ const difference = (num1, num2) => {
     return sub;
 };
 console.log(difference(4, 3));
+// rest parameters
+const sumArgs = (num1, num2, ...args) => {
+    let result = 0;
+    if (args.length) {
+        result = num1 + num2 + args.reduce((a, b) => a + b);
+    }
+    else {
+        result = num1 + num2;
+    }
+    return result;
+};
+console.log("Args Sum:", sumArgs(2, 4, 10, 20, 5));
