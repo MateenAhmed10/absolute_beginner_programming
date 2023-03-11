@@ -76,4 +76,28 @@ if (country === "Pakistan" || country === "PK") {
   console.log("Sorry! you not a citizen of Pakistan");
 }
 
+let books: string[] = [
+  "Think and Grow Rich",
+  "The Lean Startup",
+  "The Intelligent Investor",
+  "Law of Success",
+];
+
+console.log('\n');
+const checkItem = (arrbooks: string[], searchBook: string) => {
+  let book: string = "";
+  for (let i = 0; i < arrbooks.length; i++) {
+    if (arrbooks[i].toLowerCase().includes(searchBook.toLowerCase())) {
+      book = `We found the book: ${arrbooks[i]}`;
+      break;
+    } else {
+      book = "The book is not avaible!";
+    }
+  }
+  return book;
+};
+
+const getBook = checkItem(books, "tHe LEan StarTup");
+console.log(getBook);
+
 export {};
